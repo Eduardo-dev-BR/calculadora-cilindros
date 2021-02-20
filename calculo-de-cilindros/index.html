@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montando cilindros</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="favicon.png" />
+</head>
+<body>
+<div class="fundo"></div>
+    <header>
+        <nav>
+            <p>< WINN FSHN ></WINN></p>
+            <h2>Montagem de cilindros</h2>
+        </nav>
+    </header>
+
+    <section>
+        <div class="content">
+            <form>
+                <label>Valor do Diâmetro:</label>
+                <input type="text" id="diametro" onclick="foco()"/>
+
+                <label>Valor da Altura:</label>
+                <input type="text" id="altura" onclick="foco()"/>
+
+                <button type="button" onclick="calcular()">Calcular</button>
+            </form>
+
+            <div id="resultado" class="resultado"></div>
+        </div><!-- content-->
+    </section>
+
+    <div id="alert">
+        <p><b>* </b>Por favor, preencha os campos</p>
+    </div>
+
+    <script src="/js/functions.js"></script>
+</body>
+</html>
